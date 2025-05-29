@@ -11,4 +11,4 @@ hostname= api-dsp.8ziben.com, adxlog.9zas5.com
 
 [Rewrite]
 ^http:\/\/adxlog\.9zas5\.com\/monitor\/common\/* reject
-^https:\/\/api-dsp\.8ziben\.com\/api\/v2\/ios\/adverts\/* reject-dict
+^https:\/\/api-dsp\.8ziben\.com\/api\/v2\/ios\/adverts\/* reject
