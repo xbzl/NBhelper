@@ -1,14 +1,9 @@
-#!name= NB全能助手去广告
-#!author=@无名
-#!icon=https://raw.githubusercontent.com/xbzl/Loon/refs/heads/main/baicizhan1.png
-#!desc= 移除开屏广告、弹出广告
-#!loon_version= 3.3.0(853)
-#!homepage= https://raw.githubusercontent.com/xbzl/Loon/refs/heads/main/README.md
+#!name = 10.7.0.1 回环
+#!desc = WLOC 本机回环
+#!loon_version = 3.5.0(969)
 
+[General]
+include-tun = 10.7.0.1/32
 
-[MITM]
-hostname= api-dsp.8ziben.com, adxlog.9zas5.com
-
-[Rewrite]
-^http:\/\/adxlog\.9zas5\.com\/monitor\/common\/* reject
-^https:\/\/api-dsp\.8ziben\.com\/api\/v2\/ios\/adverts\/* reject
+[IP Rewrite]
+10.7.0.1 = reflect
